@@ -8,12 +8,8 @@ html {
 }
 body {
   background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
-  padding: 5rem 0;
 }
-.main {
-  max-width: 120rem;
-  margin: 0 auto;
-}
+
 .header {
   background-color: #f9f5f3;
   display: flex;
@@ -59,7 +55,7 @@ body {
   grid-template-columns: 1fr 2fr 1fr;
 }
 .item-details {
-  height: 150vh;
+  height: calc(100vh - 10rem);
   background-color: #fff;
 }
 .heading-primary {
